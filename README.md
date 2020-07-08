@@ -6,7 +6,7 @@ rtmp_tsdebug rtmp://192.168.0.3/live/stream
 
 ```
 2020/07/07 18:06:38 [I] onStatus level=status code=NetStream.Play.Start description=Started playing stream.
-2020/07/07 18:06:38 [D] rtmp ReadMessage type=video time=0 size=269
+2020/07/07 18:06:38 [D] rtmp ReadMessage type=metadata time=0 size=269
 2020/07/07 18:06:38 [D] rtmp ReadMessage type=audio time=0 size=7
 2020/07/07 18:06:38 [D] rtmp ReadMessage type=video time=0 size=57
 2020/07/07 18:06:38 [D] rtmp ReadMessage type=video time=9735863 size=34558
