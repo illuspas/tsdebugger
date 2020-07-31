@@ -3,7 +3,7 @@
 ## Download
 - https://github.com/illuspas/rtmp_tsdebug/releases/download/0.0.1/rtmp_tsdebug_linux_amd64.tar.gz
 - https://github.com/illuspas/rtmp_tsdebug/releases/download/0.0.1/rtmp_tsdebug_windows_amd64.zip
-
+- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.0.1/rtmp_tsdebug_darwin_amd64.tar.gz
 ## Usage
 ```
 rtmp_tsdebug rtmp://192.168.0.3/live/stream
