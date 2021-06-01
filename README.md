@@ -1,10 +1,10 @@
 # TSDebugger
-用于调试RTMP、KMP、HTTP-FLV流时间戳的小工具  
+用于调试RTMP、KMP、HTTP(S)-FLV、Websocket(s)-FLV流时间戳的小工具  
 
 ## Download
-- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.0.2/tsdebugger_linux_amd64.tar.gz
-- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.0.2/tsdebugger_windows_amd64.zip
-- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.0.2/tsdebugger_darwin_amd64.tar.gz
+- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.1.0/tsdebugger_linux_amd64.tar.gz
+- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.1.0/tsdebugger_windows_amd64.zip
+- https://github.com/illuspas/rtmp_tsdebug/releases/download/0.1.0/tsdebugger_darwin_amd64.tar.gz
 - 
 ## Usage
 ```
@@ -17,6 +17,10 @@ tsdebugger kmp://192.168.0.3/live/stream
 
 ```
 tsdebugger http://192.168.0.3:8000/live/stream.flv
+```
+
+```
+tsdebugger ws://192.168.0.3:8000/live/stream.flv
 ```
 
 ```
