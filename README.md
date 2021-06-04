@@ -5,7 +5,7 @@
 - https://cdn.nodemedia.cn/tsdebugger/0.1.0/tsdebugger_windows_amd64.zip
 - https://cdn.nodemedia.cn/tsdebugger/0.1.0/tsdebugger_linux_amd64.tar.gz
 - https://cdn.nodemedia.cn/tsdebugger/0.1.0/tsdebugger_darwin_amd64.tar.gz
-- 
+
 ## Usage
 ```
 tsdebugger rtmp://192.168.0.3/live/stream
