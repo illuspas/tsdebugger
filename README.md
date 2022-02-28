@@ -2,9 +2,16 @@
 用于调试RTMP、KMP、HTTP(S)-FLV、Websocket(s)-FLV流时间戳的小工具  
 
 ## Download
-- https://cdn.nodemedia.cn/tsdebugger/0.1.1/tsdebugger_windows_amd64.zip
-- https://cdn.nodemedia.cn/tsdebugger/0.1.1/tsdebugger_linux_amd64.tar.gz
-- https://cdn.nodemedia.cn/tsdebugger/0.1.1/tsdebugger_darwin_amd64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_windows_amd64.zip
+- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_linux_amd64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_darwin_amd64.tar.gz
+
+## changelog
+v0.1.3
+增加avcc/hvcc的打印
+增加关键帧标识打印
+增加关键帧间隔时长统计
+增加音视频每秒帧率，码率统计
 
 ## Usage
 ```
