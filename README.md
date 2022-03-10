@@ -4,7 +4,9 @@
 ## Download
 - https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_windows_amd64.zip
 - https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_linux_amd64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_linux_arm64.tar.gz
 - https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_darwin_amd64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_darwin_arm64.tar.gz
 
 ## changelog
 v0.1.3
