@@ -2,15 +2,18 @@
 用于调试RTMP、KMP、HTTP(S)-FLV、Websocket(s)-FLV流时间戳的小工具  
 
 ## Download
-- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_windows_amd64.zip
-- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_linux_amd64.tar.gz
-- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_linux_arm64.tar.gz
-- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_darwin_amd64.tar.gz
-- https://cdn.nodemedia.cn/tsdebugger/0.1.3/tsdebugger_darwin_arm64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.4/tsdebugger_windows_amd64.zip
+- https://cdn.nodemedia.cn/tsdebugger/0.1.4/tsdebugger_linux_amd64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.4/tsdebugger_linux_arm64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.4/tsdebugger_darwin_amd64.tar.gz
+- https://cdn.nodemedia.cn/tsdebugger/0.1.4/tsdebugger_darwin_arm64.tar.gz
 
 ## changelog
+v0.1.4
+- 增加aac/opus 头的打印  
+
 v0.1.3
-- 增加avcc/hvcc的打印  
+- 增加avcc/hvcc 头的打印  
 - 增加关键帧标识打印  
 - 增加关键帧间隔时长统计  
 - 增加音视频每秒帧率，码率统计
@@ -33,7 +36,17 @@ tsdebugger ws://192.168.0.3:8000/live/stream.flv
 ```
 
 ```
-2020/07/07 18:06:38 [I] onStatus level=status code=NetStream.Play.Start description=Started playing stream.
+2020/07/07 18:06:38 [I] onStatus level=status code=NetStream.Play.Start description=Started playing bbb.
+2020/07/07 18:06:38 [D] rtmp type=metadata pts=0 dts=0 size=333
+2020/07/07 18:06:38 [D] AAC sequence header
+00000000  11 88 56 e5 00                                    |..V..|
+
+2020/07/07 18:06:38 [D] AVC sequence header
+00000000  01 64 00 1f ff e1 00 24  67 64 00 1f ac b2 01 e0  |.d.....$gd......|
+00000010  22 fd c2 00 00 03 00 02  00 00 03 00 60 c0 c0 01  |"...........`...|
+00000020  e8 48 00 3d 09 cd 46 00  f1 83 24 80 01 00 05 68  |.H.=..F...$....h|
+00000030  eb cc b2 2c fd f8 f8 00                           |...,....|
+
 2020/07/07 18:06:38 [D] rtmp ReadMessage type=metadata time=0 size=269
 2020/07/07 18:06:38 [D] rtmp ReadMessage type=audio time=0 size=7
 2020/07/07 18:06:38 [D] rtmp ReadMessage type=video time=0 size=57
